@@ -1,0 +1,71 @@
+.App{
+    height: 100vh;
+    padding: 0px 100px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #501b1d;
+    color:#64485c
+}
+
+.movies{
+    display: flex;
+    flex-direction: column;
+}
+
+.movie{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    background-color: #83677b;
+    border: black;
+    border-radius: 15px;
+}
+
+.delete {
+    border: none;
+    padding: 3px 6px;
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid red;
+}
+
+.update {
+    border: none;
+    padding: 3px 6px;
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid blue;
+}
+.img{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    background-color: brown;
+
+}
+
+.form{
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input{
+    width: 250px;
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+.formButton{
+    border:none;
+    padding: 10px;
+    background-color: #adadad;
+    color: #64485c;
+    font-weight: bold;
+    cursor:pointer;
+}
